@@ -1,0 +1,25 @@
+import java.util.* ;
+import java.io.*; 
+import java.util.ArrayList;
+
+public class Solution 
+{
+    public static void reverseArray(ArrayList<Integer> arr, int m)
+    {
+        if (m == 0 || m == arr.size() - 1) { // Use size() for ArrayList length
+            return;
+        }
+
+        // Reverse the subarray from M + 1 to the end
+        int start = m + 1;
+        int end = arr.size() - 1; // Use size() for ArrayList length
+        while (start < end) {
+            int temp = arr.get(start); // Use get() to access elements
+            arr.set(start, arr.get(end)); // Use set() to modify elements
+            arr.set(end, temp);
+            start++;
+            end--;
+        }
+        
+    }
+}
