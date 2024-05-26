@@ -1,0 +1,36 @@
+import java.util.Scanner;
+
+public class daythreespiral {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        
+        // Fuck Ratings, I'm in Love with Experience.
+        // Once a Charas, Always a CHARAS.
+        
+        int t = 1;
+        t = scanner.nextInt();
+        
+        while (t-- > 0) {
+            int x, y;
+            x = scanner.nextInt();
+            y = scanner.nextInt();
+            
+            int ans;
+            if (x < y) {
+                if ((y * y) % 2 != 0) {
+                    ans = (y * y) - x + 1;
+                } else {
+                    ans = ((y - 1) * (y - 1) * x) + x;
+                }
+            } else {
+                if ((x * x) % 2 != 0) {
+                    ans = ((x - 1) * (x - 1)) + y;
+                } else {
+                    ans = (x * x) - y + 1;
+                }
+            }
+            
+            System.out.println(ans);
+        }
+    }
+}
