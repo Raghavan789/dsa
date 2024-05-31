@@ -1,0 +1,34 @@
+import java.util.Scanner;
+
+public class TowerOfHanoi {
+    // Function to print the move
+    public static void printMove(int from, int to) {
+        System.out.println(from + " " + to);
+    }
+
+    // Recursive function to solve the Tower of Hanoi puzzle
+    public static void solveHanoi(int n, int from, int to, int aux) {
+        if (n == 0) {
+            return;
+        }
+        // Move n-1 disks from 'from' to 'aux' using 'to' as auxiliary
+        solveHanoi(n - 1, from, aux, to);
+        // Move the nth disk from 'from' to 'to'
+        printMove(from, to);
+        // Move n-1 disks from 'aux' to 'to' using 'from' as auxiliary
+        solveHanoi(n - 1, aux, to, from);
+    }
+
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        int n = scanner.nextInt();
+        scanner.close();
+
+        // Calculate the minimum number of moves: 2^n - 1
+        int k = (1 << n) - 1; // This is equivalent to 2^n - 1
+        System.out.println(k);
+
+        // Solve the Tower of Hanoi puzzle
+        solveHanoi(n, 1, 3, 2); // 1 -> left stack, 2 -> middle stack, 3 -> right stack
+    }
+}
