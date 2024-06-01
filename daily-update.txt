@@ -1,0 +1,27 @@
+classification:-
+solved:
+->Weird Algorithm
+->Missing Number
+->Repetitions
+->Increasing Array
+->Permutations
+->Two Knights(youtube)
+->Trailing Zeros
+->Palindrome(31-05-2024)
+
+not even understandable(logic ravartledu):
+->Apartements
+->Concert tickets(red black tress anta i dont know new concept i have to learn)
+->Two sets(c seen but not understandable)-31-05-2024
+->tower of Hanoi
+
+attempted but wrong ans:
+->Distinct Numbers
+->Sum of Two Values-31-05-2024
+->Sum of Three Values-31-05-2024
+->Ferris wheel(c seen done using two pointer approach)(my approach was to substract 10)-31-05-2024
+->Bit string(c seen)-31-05-2024
+->Coin Piles(time limit exceeded) 31-05-2024
+
+
+unattempted:
