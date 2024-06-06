@@ -14,6 +14,10 @@ not even understandable(logic ravartledu):
 ->Concert tickets(red black tress anta i dont know new concept i have to learn)
 ->Two sets(c seen but not understandable)-31-05-2024
 ->tower of Hanoi
+->Digit querirs (seen in chat gpt but not understandable)
+->grid paths
+->all others
+
 
 attempted but wrong ans:
 ->Distinct Numbers
