@@ -18,6 +18,9 @@ not even understandable(logic ravartledu):
 ->grid paths
 ->all others
 
+today done a problem in hacker rank (06-06-2024)
+done practice problems in array list 
+
 
 attempted but wrong ans:
 ->Distinct Numbers

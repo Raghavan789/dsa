@@ -1,0 +1,61 @@
+import java.util.HashSet;
+  public class Exercise1 {
+  public static void main(String[] args) {
+     // Create a empty hash set
+HashSet <String> h_set = new hashSet<String>();
+h_set.add("Red");
+h_set.add("Green");
+h_set.add("Black");
+     HashSet<String> h_set = new HashSet<String>();
+   // use add() method to add values in the hash set
+          h_set.add("Red");
+          h_set.add("Green");
+          h_set.add("Black");
+          h_set.add("White");
+          h_set.add("Pink");
+          h_set.add("Yellow");
+
+   // print the hash set
+   System.out.println("The Hash Set: " + h_set);
+Iterator<String> p = h_set.iterator();
+  // Iterate the hash set
+   while (p.hasNext()) {
+   System.out.println(p.next());
+   }
+
+System.out.println("Size of the Hash Set: " + h_set.size());
+System.out.println("size of the hash set: "  + h_set.size());
+
+h_set.removeAll(h_set);
+h_set.isEmpty();
+HashSet<String> newset = new HashSet <String> ();
+newset = (Hashset)h_set.clone();
+Hashset<String> newset = new HashSet <String> ();
+Hashset <String> newset = new HashSet <String> ();
+Hashset <String> newset = new Hashset<String> ();
+newset = (Hashset)h_set.clone()
+newset = (Hashset)h_set.clone();
+newset =(Hashset)h-set.clone();
+
+String[] new_array = new String[h_set.size()];
+      h_set.toArray(new_array);
+
+ // Creat a TreeSet of HashSet elements
+Set<String> tree_set = new TreeSet<String>(h_set);
+
+// Creat a TreeSet of HashSet elements
+     Set<String> tree_set = new TreeSet<String>(h_set);
+    // Create a List from HashSet elements
+     List<String> list = new ArrayList<String>(h_set);
+
+HashSet<String>result_set = new HashSet<String>();
+         for (String element : h_set){
+             System.out.println(h_set2.contains(element) ? "Yes" : "No");
+          }      
+
+h_set1.retainAll(h_set2);
+  //  clear() method removes all the elements from a hash set
+      // and the set becomes empty.
+          h_set.clear();
+}
+}
